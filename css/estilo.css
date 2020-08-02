@@ -1,0 +1,51 @@
+.app{
+    margin: auto;
+    background: #36393f;
+    color: rgba(47, 255, 134, 1);
+    padding: 5px 0;
+    max-width: 432px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#lista{
+    list-style: none;
+}
+.controle{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+}
+li{
+    margin-top: 12.5px;
+}
+.excluir, #adicionar{
+    border: 1px solid transparent;
+    margin-left: 30px;
+    padding: 2px 10px;
+    border-radius: 3px;
+    background-color: rgba(47, 255, 134, 1);
+    cursor: pointer;
+    border: 2px solid rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+.excluir:hover{
+    background-color: rgba(47, 255, 134, 0.8);
+    /*box-shadow: 0px 0px 18px rgba(47, 255, 134, 1);*/
+}
+#tarefa{
+    background: rgba(0, 0, 0, 0.15);
+    color: #dcddde;
+    border: 2px solid rgba(0,0,0,0.2);
+    height: 25px;
+    border-radius: 5px;
+    padding: 3px 0px;
+    transition: 0.5s;
+    width: 240px;
+}
+#tarefa:focus{
+    border: 2px solid rgba(47, 255, 134,0.7);
+}
+
