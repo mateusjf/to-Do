@@ -2,8 +2,6 @@
 
 Aplicativo de To Do feitas utilizando javascript, html e css
 
-<h2>Aplicação</h2>
-
 <h3>Recursos</h3>
   <ul>
     <li>Permite adicionar as tarefas</li>
